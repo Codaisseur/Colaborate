@@ -59,4 +59,4 @@ favorite language and a teach-function of that teacher that will alert you with 
 
 14) What is the difference between `git add`,`git commit` and `git push` ?
 
-Clone this repository and add a file with the ansers to these questions!
+### Clone this repository and add a file with the answers to these questions to the directory of your class. Name it 'AnswersFromYourName.md' Make sure to add a pull request and make some class mates review it!
