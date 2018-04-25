@@ -18,7 +18,7 @@ Welcome to this repository where you can get a first glance of collaborating on 
 
 ```
 var multiply = function(a, b) {
-  return a * b; 
+  return a * b;
 };
 
 multiply(2, 3)
@@ -31,31 +31,30 @@ multiply(2, 3)
 9) Can I use my vars at the following places?
 
 ```
-var name = Rembert 
+var name = Rembert
 
 //Place A
 
-var codaisseur = function() { 
+var codaisseur = function() {
   //Place B
 }
 ```
 ```
 var codaisseur = function() {
-  var name = Rembert 
+  var name = Rembert
   //Place C
 }
 
 //Place D
 ```
-
 10) Why would you use an object?
 
-11) Create an object ‘teacher', that stores the name, 
+11) Create an object ‘teacher', that stores the name,
 favorite language and a teach-function of that teacher that will alert you with some useful knowledge.
 
 12) What are the property-names and values of the object you just created?
 
-13) Why would you use git? 
+13) Why would you use git?
 
 14) What is the difference between `git add`,`git commit` and `git push` ?
 
