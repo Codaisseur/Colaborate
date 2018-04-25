@@ -33,7 +33,7 @@ multiply(2, 3)
 ```
 var name = Rembert
 
-//Place A
+//Place
 
 var codaisseur = function() {
   //Place B
