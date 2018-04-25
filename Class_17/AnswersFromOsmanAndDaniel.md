@@ -40,3 +40,9 @@ var multiply = function(a, b) {
 };
 multiply(2, 3);
 ```
+8) Define how variables are accessible, within or outside of the function. (local vs global)
+9)
+a) Yes
+b) Yes
+c) Yes
+d) No
