@@ -58,8 +58,7 @@ the content of the function is to return the result of 'a' times 'b'
 in the final line a and b are defined by the numbers '2' and '3'
 
 7) How could we log the arguments of the code above?
-nothing?? it already executes with the final line??
-(i'm confused about this one)
+console.log, answer too obvious. 
 
 8) What is ‘scope’?
 Scope can be either global or local. Global scope sets variables for the entire code-file. Local scope is set between curly brackets ({...}) and values and variables declared locally only apply to what's between those brackets.
