@@ -46,3 +46,11 @@ console.log(multiply.[b])
     alert('I have been teaching here at Codaisseur for 3 months now')
   }
 }
+//12. property-names are name,favoriteLanguage, teachFunction, speak
+      property values are "Arien", "HTML5", "Expert", function()
+
+//13. I would use git to collaborate with people on projects and save different versions of my files. And use it as a backup for my projects.
+
+//14. git add -> adds a file locally to your git
+      git commit -> adds the changes of the added file to Git
+      git push -> pushes your file or changes to GitHub
