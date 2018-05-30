@@ -23,10 +23,20 @@ team.forEach(function(i){
   console.log(i);
   document.write(i)
 })
+
+
 //5 - A loop goes through a function - An array is arrangement of data
 //You can use a loop to go through an array - An array is fixed and an Loop goes through is.
 //6 - It's a function that multiplies  a with b. In this case we defined a= 2 and b= 3 giving the result 6
 //7 -
+var multiply = function(a, b) {
+  console.log(a)
+  return a * b;
+
+};
+
+multiply(2, 3)
+
 //8 - Scope is where the variale is defined - In a funtion or outside of it.
 // All of the variables outside can be used in functions but not the other way around
 //9 - A B yes - C D
@@ -35,7 +45,11 @@ team.forEach(function(i){
 
 var teacher = {
   name: 'Arjan',
-  Language: ' English'
-}
+  Language: ' English',
+  teach: function(){
+    return window.alert("HTML and CSS time")
+  )}
 
+//12 - property names: Name (strings), Language (strings) , teach (method)
+//13 - to collaborate easily and make branches (versions your working on)
 //14 - git add is adding it to git - Git commit is add comment - git push is send it to the online repositary
