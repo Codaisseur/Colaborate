@@ -35,7 +35,10 @@ team.forEach(function(i){
 
 var teacher = {
   name: 'Arjan',
-  Language: ' English'
+  Language: ' English',
+  teach: function(){
+    return window.alert("HTML and CSS time")
+  )}
 }
-
+//13 - to collaborate easily and make branches (versions your working on)
 //14 - git add is adding it to git - Git commit is add comment - git push is send it to the online repositary
