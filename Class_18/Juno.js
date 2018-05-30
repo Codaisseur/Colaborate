@@ -48,4 +48,63 @@ arrays are a set of values ordered by index number.
  inside the function it returns the arguments while multiplying them
  and then you call the function.
 
- 
+ // 7) How could we log the arguments of the code above?
+ let multiply = function(a, b){
+return a * b
+}
+console.log(multiply(2, 5))
+
+// 8) What is ‘scope’?
+scope determines accessibility
+variables inside a function are local
+variables outside a function are global
+//
+// 9) Can I use my vars at the following places?
+//
+// ```
+// var name = Rembert
+//
+// //Place A
+//
+// var codaisseur = function() {
+//   //Place B
+// }
+// ```
+// ```
+// var codaisseur = function() {
+//   var name = Rembert
+//   //Place C
+// }
+//
+// //Place D
+// ```
+Yes
+
+// 10) Why would you use an object?
+to store data with properties with possible changing values
+or functions that can be called when the object is initialized.
+
+
+// 11) Create an object ‘teacher', that stores the name,
+// favorite language and a teach-function of that teacher that will alert you with some useful knowledge.
+var teacher = {
+  name: 'Rein',
+  favLang: 'JS',
+  teach: function(){
+    alert('Functional to become a strong independent dev ')
+  }
+};
+
+// 12) What are the property-names and values of the object you just created?
+name
+favLang
+teach
+
+// 13) Why would you use git?
+to keep track of changes you are making to your files
+and to collaborate with other devs
+
+// 14) What is the difference between `git add`,`git commit` and `git push` ?
+git add tells the local branch what files you want to commit
+git commit commits the modified files to the staging area (i.e local machine)
+git push adds them to the remote branch on a the github server
