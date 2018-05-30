@@ -47,3 +47,28 @@ multiply(2, 3)
 //Scope determines the visibility of variables.
 
 //q.9
+// you can use it at places A,B and D
+
+//q.10
+//most often use the object data type, mostly for storing data and for creating your own custom methods and functions.
+
+//q.11
+var teacher = {
+  name: "name",
+  favLanguage: "JavaScript",
+  teach: function(){
+    alert("name is a great student!!!");
+  }
+};
+
+//q.12
+//names: name, favLanguage, teach()
+// properties: "name", "Javascript", function() {alert("name is a great student!!!")}
+
+//q.13
+//Git is useful to collaborate and track changes in code. Code is always changing and it is an amazing idea to keep track of everything youve done
+
+//q.14
+// Git commit will initilize a repository called "Master"
+// Git add will stage the change to the staging area
+// Git push will push the changes to the repository from the staging area, completing the changes
