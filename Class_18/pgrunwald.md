@@ -9,12 +9,10 @@ You use loop to iterate over items of e,g array.
 
 ```javascript
 let food = "sushi";
-
-let food = "sushi";
 var i;
-for (i = 0; i < 10 i++) {
-    let text = food;
-    text
+for (i = 0; i < 10; i++) {
+    console.log(food);
+    i++
 }
 ```
 
