@@ -1,0 +1,4 @@
+Question: What is an attribute used for?
+
+Answer: With attributes you can configure html elements. 
+Like src sets the source of the content of the <img>
